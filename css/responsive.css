@@ -1,0 +1,118 @@
+/* Small Screen */
+@media (min-width: 640px) {
+    .container {
+        max-width: 640px;
+    }
+}
+
+/* Mediumn Screen */
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
+    /* text */
+    .md\:text-20xl {
+        font-size: 5rem;
+        line-height: 4.5rem;
+    }
+
+    /* flexbox */
+    .md\:flex {
+        display: flex;
+    }
+    .md\:flex-row {
+        flex-direction: row;
+    }
+    .md\:hidden {
+        display: none;
+    }
+
+}
+
+/* Large Screen */
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+
+    .bg-image {
+        background-image: url("../images/image-01.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 0 0;
+    }
+
+    .lg\:w-full {
+        width: 100%;
+    }
+    .lg\:w-4\/10 {
+        width: 40%;
+    }
+    .lg\:w-6\/10 {
+        width: 60%;
+    }
+
+    .lg\text-xl {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+
+    .lg\:pt-4 {
+        padding-top: 1rem;
+    }
+
+    /* display */
+    .lg\:hidden {
+        display: none;
+    }
+    .lg\:flex {
+        display: flex;
+    }
+    .lg\:flex-row {
+        flex-direction: row;
+    }
+    .lg\:flex-col {
+        flex-direction: column;
+    }
+    .lg\:flex-space-around {
+        justify-content: space-around;
+    }
+    .lg\:flex-start {
+        justify-content: flex-start;
+    }
+    .lg\:items-start {
+        align-items: flex-start;
+    }
+
+    .lg\:items-self-center {
+        align-self: center;
+    }
+    .lg\:items-self-end {
+        align-self: flex-end;
+    }
+
+    .lg\:pl-10 {
+        padding-left: 2.5rem;
+    }
+
+}
+
+/* Extra Large Screen */
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
+
+}
+
+/* Extra Extra Large Screen */
+@media (min-width: 1536px) {
+    .container {
+        max-width: 1536px;
+    }
+}
+
+/* Desktop Screen size */
+/* Small (smaller than 640px) Medium (641px to 1007px) Large (1008px and larger) */
+/* 320px for mobile */
